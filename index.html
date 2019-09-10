@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <!-- Head-->
+  <head>
+    <title>Fylo New</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/styles/bootstrap.css">
+    <link rel="stylesheet" href="sass/styles/style.css">
+  </head>
+  <title>Pug 2</title>
+  <body>
+    <div class="page">
+      <!-- Header-->
+      <header class="header page__header container">
+        <!-- Logo and Menu-->
+        <nav class="menu row justify-content-between navbar navbar-expand-md">
+          <!-- Logo-->
+          <a class="logo" href="#">
+                  <img class="logo__image navbar-brand" src="images/logo.svg" alt="img"></a>
+          <!-- Menu-->
+          <ul class="menu__list menu__left navbar-nav">
+                  <li class="menu__item nav-item px-5 py-3"><a class="menu__link .nav-link" href="#">Home</a></li>
+                  <li class="menu__item nav-item px-5 py-3"><a class="menu__link .nav-link" href="#">About</a></li>
+                  <li class="menu__item nav-item px-5 py-3"><a class="menu__link .nav-link" href="#">Contact</a></li>
+                  <li class="menu__item nav-item px-5 py-3"><a class="menu__link .nav-link" href="#">Price</a></li>
+          </ul>
+          <ul class="menu__list menu__right navbar-nav">
+                  <li class="menu__item p-3"><a class="menu__link" href="#">Sign In</a></li>
+                  <li class="menu__item p-3"><a class="menu__link" href="#">Sign Up</a></li>
+          </ul>
+        </nav>
+        <!-- Banner-->
+        <div class="header__background"><img src="images/bg-intro-desktop.svg" alt=""></div>
+        <div class="banner row align-items-center">
+          <div class="banner__info col-md-5 text-md-left col-sm-12 text-sm-center">
+                  <h1 class="banner__title">All your files in one secure lacation, accessible anywhere.</h1>
+                  <p class="banner__description">Fylo stores all your most important files in one secure location. Access them whereer you need, share and collaborate with friends, family and co-workers.</p>
+                  <a class="button__get-start badge badge-success px-5 py-4" href="#">Get Started</a>
+          </div>
+          <div class="banner__image col-md-7 text-md-right col-sm-12 text-sm-center"><img src="images/illustration-main.svg" alt="image"></div>
+        </div>
+      </header>
+      <!-- Content-->
+      <section class="content page__content">
+        <!-- Product-->
+        <div class="container">
+          <div class="product">
+            <div class="content__image container-fluid badge-danger"></div>
+            <div class="product__heading text-center">
+                    <h1 class="content__title">Stay productive, wherever you are</h1>
+                    <p class="content__description">Never let location be an issue when accessing your file. Fylo has you covered for all of your file storage needs.</p>
+            </div>
+            <div class="product__list row text-center">
+                    <div class="product__item col-md-4 col-sm-12">
+                      <div class="product__container__image"><img class="product__image" src="images/icon-devices.svg" alt="image alt"></div>
+                      <p class="prodcut__description">All flatforms, all devices, all your file</p>
+                    </div>
+                    <div class="product__item col-md-4 col-sm-12">
+                      <div class="product__container__image"><img class="product__image" src="images/icon-security.svg" alt="image alt"></div>
+                      <p class="prodcut__description">Security you can trust</p>
+                    </div>
+                    <div class="product__item col-md-4 col-sm-12">
+                      <div class="product__container__image"><img class="product__image" src="images/icon-collaboration.svg" alt="image alt"></div>
+                      <p class="prodcut__description">Real-time collaboration</p>
+                    </div>
+            </div>
+          </div>
+          <!-- Connect-->
+          <div class="connect row align-items-center">
+            <div class="connect__heading col-md-5 text-left text-sm-center">
+                    <h1 class="content__title">Connect with the apps you use everyday</h1>
+                    <p class="content__description">Fylo seamlessly integrates with hundreds of apps, meaning you can access and work on your files from the apps you already know and love.</p>
+            </div>
+            <div class="connect__list col-md-7">
+              <div class="row text-center p-3 justify-content-between">
+                <div class="row">
+                        <div class="connect__item col-md border border-primary p-0 ml-md-2 mb-md-2">
+                          <div class="connect__container__image"><img class="connect__image" src="images/logo-slack.png" alt="image alt"></div>
+                          <h1 class="connect__title px-2">Slack</h1>
+                          <p class="connect__description px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id vaarius eros, vel pharetra est.</p>
+                        </div>
+                        <div class="connect__item col-md border border-primary p-0 ml-md-2 mb-md-2">
+                          <div class="connect__container__image"><img class="connect__image" src="images/logo-asana.png" alt="image alt"></div>
+                          <h1 class="connect__title px-2">Asana</h1>
+                          <p class="connect__description px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id vaarius eros, vel pharetra est.</p>
+                        </div>
+                        <div class="connect__item col-md border border-primary p-0 ml-md-2 mb-md-2">
+                          <div class="connect__container__image"><img class="connect__image" src="images/logo-gsuite.png" alt="image alt"></div>
+                          <h1 class="connect__title px-2">GSuite</h1>
+                          <p class="connect__description px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id vaarius eros, vel pharetra est.</p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="connect__item col-md border border-primary p-0 ml-md-2 mb-md-2">
+                          <div class="connect__container__image"><img class="connect__image" src="images/logo-salesforce.png" alt="image alt"></div>
+                          <h1 class="connect__title px-2">Salesforce</h1>
+                          <p class="connect__description px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id vaarius eros, vel pharetra est.</p>
+                        </div>
+                        <div class="connect__item col-md border border-primary p-0 ml-md-2 mb-md-2">
+                          <div class="connect__container__image"><img class="connect__image" src="images/logo-trello.png" alt="image alt"></div>
+                          <h1 class="connect__title px-2">Trello</h1>
+                          <p class="connect__description px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id vaarius eros, vel pharetra est.</p>
+                        </div>
+                        <div class="connect__item col-md border border-primary p-0 ml-md-2 mb-md-2">
+                          <div class="connect__container__image"><img class="connect__image" src="images/logo-typeform.png" alt="image alt"></div>
+                          <h1 class="connect__title px-2">Typeform</h1>
+                          <p class="connect__description px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id vaarius eros, vel pharetra est.</p>
+                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Start-->
+          <div class="start container text-center">
+            <div class="start__heading">
+                    <h1 class="content__title">Start using Fylo today</h1>
+                    <p class="content__description">It only takes a minute to sign up and our tree starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                    
+                    <a class="button__get-start badge badge-success px-5 py-4" href="#">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer-->
+      <footer class="footer page__footer">
+        <div class="container mt-5">
+          <!-- Footer contact-->
+          <div class="footer__logo row justify-content-sm-center justify-content-md-start pb-3"><img class="footer__image" src="images/logo.svg"></div>
+          <div class="row">
+            <div class="footer__contact col-md-6">
+              <p class="footer__description text-sm-center text-md-left">Receive updates from us, including tips and tricks on how to improve your workflow.search-zone</p>
+              <div class="footer__input">
+                <input class="footer__input-text col-md-7 p-3" type="text"><a class="button__join badge badge-success col-md-4 px-5 py-4 mt-sm-2 ml-md-3" href="">Join</a>
+              </div>
+              <div class="footer__info text-sm-center mt-sm-2 text-md-left mt-md-2"><img class="footer__call mr-3" src="images/icon-phone.svg"><span class="footer__phone-number">Phone: +1-543-123-4567</span></div>
+              <div class="footer__info text-sm-center mt-sm-2 text-md-left mt-md-2"><img class="footer__email mr-3" src="images/icon-email.svg"><span class="footer__email-address">example@fylo.com</span></div>
+            </div>
+            <!-- Footer menu-->
+            <div class="footer__menu col-md-6">
+              <div class="row text-sm-center text-md-left">
+                <div class="footer__container col-md-4">
+                  <h3 class="footer__menu-title">Fylo</h3>
+                  <ul class="footer__menu-list p-0 nav flex-column">
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Destop App</a></li>
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Mobile App</a></li>
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Pricing</a></li>
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Feature</a></li>
+                  </ul>
+                </div>
+                <div class="footer__container col-md-4">
+                  <h3 class="footer__menu-title">Company</h3>
+                  <ul class="footer__menu-list p-0 nav flex-column">
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">About Us</a></li>
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Jobs</a></li>
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Press</a></li>
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Blog</a></li>
+                  </ul>
+                </div>
+                <div class="footer__container col-md-4">
+                  <h3 class="footer__menu-title">Support</h3>
+                  <ul class="footer__menu-list p-0 nav flex-column">
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Contact Us</a></li>
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Terms</a></li>
+                          <li class="footer__menu-item"><a class="footer__menu-link" href="#">Privacy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
